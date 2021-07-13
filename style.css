@@ -1,0 +1,38 @@
+/* css for body part */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+}
+/* css for nav part */
+.h-container {
+  background-color: #2d25a0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar {
+  margin-top: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+li > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 36px;
+}
+.list-items {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+.log-btn {
+  width: 123px;
+  height: 44px;
+  background-color: #e02c6d;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
