@@ -246,9 +246,9 @@ footer {
 /* for mobile */
 @media only screen and (max-width: 688px) {
   /* nav bar */
-  .header {
-    width: 100%;
-  }
+ body{
+     width: 320px;
+ }
   .list-items {
     display: flex;
     flex-direction: column;
@@ -302,6 +302,8 @@ footer {
   .bonus {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .card-b {
     display: flex;
@@ -332,6 +334,10 @@ footer {
   .spo-info p {
     padding: 5px;
     width: 310px;
+  }
+  /* footer  */
+  footer{
+      width: 100%;
   }
   .f-logo img {
     margin: 0px;
@@ -408,6 +414,10 @@ footer {
   #spo {
     display: flex;
     flex-direction: column;
+  }
+  /* footer  */
+  footer{
+      width: 768px;
   }
   .f-logo img {
     width: 400px;
