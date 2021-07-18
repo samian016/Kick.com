@@ -1,34 +1,45 @@
 /* css for body part */
+
 body {
   font-family: "Poppins", sans-serif;
+         
+        
   margin: 0%;
 }
+main{
+  display: flex;
+    flex-direction: column;
+
+}
+
 /* heder css */
 /* css for nav part */
 .header {
   padding-top: 42px;
   background-color: #3dbafd;
+         
 }
 .nav-bar {
   display: flex;
   justify-content: space-evenly;
+         
   align-items: center;
 }
 li > a {
-  text-decoration: none;
+  text-decoration: none;       
   color: white;
   margin-right: 36px;
 }
 .list-items {
   text-decoration: none;
-  list-style: none;
+  list-style: none;       
   display: flex;
 }
 .log-btn {
   width: 123px;
   height: 44px;
   background-color: #33cc33;
-  text-decoration: none;
+  text-decoration: none;       
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
@@ -38,7 +49,7 @@ li > a {
 .banner {
   margin-top: 42px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-evenly;       
   align-items: center;
 }
 
@@ -47,61 +58,61 @@ li > a {
   height: 230px;
   color: #ffffff;
   font-style: normal;
-  font-weight: bold;
+  font-weight: bold;       
   font-size: 64px;
 }
 
 .logo img {
   width: 556.01px;
-  height: 438px;
+  height: 438px;       
   margin-bottom: 86px;
 }
 .logo {
   transition: transform 1s;
-  transform-origin: right bottom;
+  transform-origin: right bottom; 
 }
 .watch-l {
-  transition: transform 1s;
+  transition: transform 1s;       
 }
 .watch-l:hover {
-  transform: scale(1.2);
+  transform: scale(1.2);       
 }
 
 .watch-l {
   width: 168px;
   height: 44px;
   background-color: #33cc33;
-  text-decoration: none;
+  text-decoration: none;       
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
 }
 .logo:hover {
-  transform: scale(0.85) rotate(10deg);
+  transform: scale(0.85) rotate(10deg);       
 }
 /* player cards css */
 .container {
   margin-top: 70px;
-  display: flex;
+  display: flex;       
   justify-content: center;
   align-items: center;
 }
 .players {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);       
   grid-row-gap: 27px;
   grid-column-gap: 30px;
 }
 
 .player {
   padding: 15px;
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);       
   background: #ffffff;
   width: 330px;
 }
 .player h3 {
   font-style: normal;
-  font-weight: bold;
+  font-weight: bold;       
   font-size: 28px;
   color: #18191f;
   margin: 10px 0px;
@@ -109,50 +120,54 @@ li > a {
 .player p {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 16px;       
   color: #6c6c6c;
   margin: 10px 0px;
 }
 .player img {
-  width: 100%;
+  width: 100%;       
   height: 100%;
 }
 /* Highlight part here  */
 .highlights {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 165px;
-  margin-left: 150px;
+  
 }
+
 .h-info {
-  width: 469px;
-  height: 309px;
-  margin-right: 100px;
+  width: 30%;
+  
+ 
 }
-.half-width img {
-  width: 567px;
-  height: 427px;
-  margin-left: 160px;
+.thumb{
+  width: 30%;
 }
+.thumb img{
+  width: 100%
+
+}
+
 /* footer part here  */
 footer {
   margin-top: 158px;
   margin-bottom: 63px;
-  margin-left: 0px;
+  margin-left: 0px;       
   margin-right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.f-logo img {
+.f-logo img {       
   margin: 0px;
   width: 500px;
   height: 130.42px;
 }
 .center {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;       
   justify-content: center;
   align-items: center;
 }
@@ -160,52 +175,55 @@ footer {
   font-size: 25px;
   margin-bottom: 20px;
   margin-top: 20px;
-  padding-left: 30px;
+  padding-left: 30px;       
   display: flex;
   list-style: none;
 }
 .s-logo > li > a {
-  color: grey;
+  color: grey;       
 }
 
 .copy-r {
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 10px;       
 }
 .copy-r p {
   margin: 0px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: normal;       
   font-size: 25px;
 }
 
 /* bonus sectio css */
 .bonus {
+  
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
+ align-items: center;     
 }
 .card-b {
+  
+  width: 50%;
   display: flex;
   padding: 10px;
-  margin: 10px;
   border-radius: 10px;
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);       
 }
 .card-b img {
   border-radius: 10px;
-
-  height: 200px;
+  
+      
   width: 250px;
 }
 .info-c {
   display: flex;
   flex-direction: column;
-  width: 500px;
-  padding: 10px;
+         padding-left: 10px;
+ 
 }
 .info-c h2 {
-  margin: 0px;
+  margin: 0px;       
   padding: 0px;
 }
 .info-c h3 {
@@ -213,42 +231,40 @@ footer {
   padding: 0px;
 }
 .info-c p {
-  margin: 0px;
+  margin: 0px;       
   padding: 0px;
 }
 /* sponsor css */
 .sponsor {
   margin-top: 140px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;       
   justify-content: center;
   align-items: center;
 
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
-.sponsor h1 {
+.sponsor h1 {       
   color: #08bcbc;
 }
 #spo {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;       
   margin-top: 50px;
 }
 .spo-half {
-  width: 700px;
+  width: 700px;       
 }
 .spo-info h2 {
-  color: #08bcbc;
+  color: #08bcbc;       
 }
 /* meddia quarry here */
 
 /* for mobile */
 @media only screen and (max-width: 688px) {
   /* nav bar */
- body{
-     width: 320px;
- }
+ 
   .list-items {
     display: flex;
     flex-direction: column;
@@ -267,6 +283,9 @@ footer {
     justify-content: space-evenly;
     align-items: flex-start;
   }
+  .heading{
+    padding: 15px;
+  }
   .heading h1 {
     font-size: 50px;
     width: 80px;
@@ -274,30 +293,31 @@ footer {
   .logo img {
     height: 300px;
     width: 300px;
+    padding: 15px;
   }
 
   /* player card */
   .players {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-row-gap: 27px;
-    grid-column-gap: 30px;
-    padding-left: 30px;
+    
   }
   /* highlights  */
   .highlights {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    margin-left: 25px;
+    
   }
-  .h-info {
-    margin-left: 0px;
-    width: 320px;
+  .h-info{
+    width: 90%;
   }
-  .thumb img {
-    margin-top: 25px;
-    width: 320px;
-    margin-right: 350px;
+  .thumb img{
+    margin-top: 10px;
+    width: 300%;
   }
+
   /* bonus section css  */
   .bonus {
     display: flex;
@@ -310,13 +330,11 @@ footer {
     flex-direction: column;
     width: 320px;
     padding: 5px;
-    margin-left: 0px;
     border-radius: 10px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   }
-  .card-b p {
-    width: 320px;
-    font-size: 16px;
+  .info-c{
+    padding: 5px;
   }
 
   /* sponsor */
@@ -353,9 +371,7 @@ footer {
 }
 /* for tablet */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-  body {
-    width: 100%;
-  }
+ 
   .list-items {
     display: flex;
   }
@@ -363,7 +379,9 @@ footer {
     display: flex;
     flex-direction: column;
   }
-
+.container{
+  justify-content: flex-end;
+}
   /* banner */
   .banner {
     margin-top: 42px;
@@ -393,11 +411,10 @@ footer {
   .highlights {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
-  .h-info {
-    margin-left: 0px;
-    width: 320px;
-  }
+ 
+ 
   .thumb img {
     margin-top: 25px;
     width: 320px;
@@ -407,7 +424,11 @@ footer {
   .bonus {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+  }
+  .card-b{
+    display: flex;
+    flex-direction: column;
   }
 
   /* sponsor */
